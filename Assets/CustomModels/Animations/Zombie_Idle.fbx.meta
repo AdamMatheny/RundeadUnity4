@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: cd2831a83cc52fc459f50afcada0c61d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Head
+    100002: HeadEnd
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftHandEnd
+    100016: LeftLeg
+    100018: LeftShoulder
+    100020: LeftToe
+    100022: LeftToeEnd
+    100024: LeftUpLeg
+    100026: Neck
+    100028: Neck1
+    100030: polySurface24
+    100032: RightArm
+    100034: RightFoot
+    100036: RightForeArm
+    100038: RightHand
+    100040: RightHandEnd
+    100042: RightLeg
+    100044: RightShoulder
+    100046: RightToe
+    100048: RightToeEnd
+    100050: RightUpLeg
+    100052: Spine
+    100054: Spine1
+    100056: Spine2
+    100058: Spine3
+    100060: //RootNode
+    100062: Zombie_Scientist_Ctrl:ChestEndEffector
+    100064: Zombie_Scientist_Ctrl:ChestOriginEffector
+    100066: Zombie_Scientist_Ctrl:Head
+    100068: Zombie_Scientist_Ctrl:HeadEffector
+    100070: Zombie_Scientist_Ctrl:Hips
+    100072: Zombie_Scientist_Ctrl:HipsEffector
+    100074: Zombie_Scientist_Ctrl:LeftAnkleEffector
+    100076: Zombie_Scientist_Ctrl:LeftArm
+    100078: Zombie_Scientist_Ctrl:LeftElbowEffector
+    100080: Zombie_Scientist_Ctrl:LeftFoot
+    100082: Zombie_Scientist_Ctrl:LeftForeArm
+    100084: Zombie_Scientist_Ctrl:LeftHand
+    100086: Zombie_Scientist_Ctrl:LeftHipEffector
+    100088: Zombie_Scientist_Ctrl:LeftKneeEffector
+    100090: Zombie_Scientist_Ctrl:LeftLeg
+    100092: Zombie_Scientist_Ctrl:LeftShoulder
+    100094: Zombie_Scientist_Ctrl:LeftShoulderEffector
+    100096: Zombie_Scientist_Ctrl:LeftUpLeg
+    100098: Zombie_Scientist_Ctrl:LeftWristEffector
+    100100: Zombie_Scientist_Ctrl:Neck
+    100102: Zombie_Scientist_Ctrl:Neck1
+    100104: Zombie_Scientist_Ctrl:Reference
+    100106: Zombie_Scientist_Ctrl:RightAnkleEffector
+    100108: Zombie_Scientist_Ctrl:RightArm
+    100110: Zombie_Scientist_Ctrl:RightElbowEffector
+    100112: Zombie_Scientist_Ctrl:RightFoot
+    100114: Zombie_Scientist_Ctrl:RightForeArm
+    100116: Zombie_Scientist_Ctrl:RightHand
+    100118: Zombie_Scientist_Ctrl:RightHipEffector
+    100120: Zombie_Scientist_Ctrl:RightKneeEffector
+    100122: Zombie_Scientist_Ctrl:RightLeg
+    100124: Zombie_Scientist_Ctrl:RightShoulder
+    100126: Zombie_Scientist_Ctrl:RightShoulderEffector
+    100128: Zombie_Scientist_Ctrl:RightUpLeg
+    100130: Zombie_Scientist_Ctrl:RightWristEffector
+    100132: Zombie_Scientist_Ctrl:Spine
+    100134: Zombie_Scientist_Ctrl:Spine1
+    100136: Zombie_Scientist_Ctrl:Spine2
+    100138: Zombie_Scientist_Ctrl:Spine3
+    400000: Head
+    400002: HeadEnd
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftHandEnd
+    400016: LeftLeg
+    400018: LeftShoulder
+    400020: LeftToe
+    400022: LeftToeEnd
+    400024: LeftUpLeg
+    400026: Neck
+    400028: Neck1
+    400030: polySurface24
+    400032: RightArm
+    400034: RightFoot
+    400036: RightForeArm
+    400038: RightHand
+    400040: RightHandEnd
+    400042: RightLeg
+    400044: RightShoulder
+    400046: RightToe
+    400048: RightToeEnd
+    400050: RightUpLeg
+    400052: Spine
+    400054: Spine1
+    400056: Spine2
+    400058: Spine3
+    400060: //RootNode
+    400062: Zombie_Scientist_Ctrl:ChestEndEffector
+    400064: Zombie_Scientist_Ctrl:ChestOriginEffector
+    400066: Zombie_Scientist_Ctrl:Head
+    400068: Zombie_Scientist_Ctrl:HeadEffector
+    400070: Zombie_Scientist_Ctrl:Hips
+    400072: Zombie_Scientist_Ctrl:HipsEffector
+    400074: Zombie_Scientist_Ctrl:LeftAnkleEffector
+    400076: Zombie_Scientist_Ctrl:LeftArm
+    400078: Zombie_Scientist_Ctrl:LeftElbowEffector
+    400080: Zombie_Scientist_Ctrl:LeftFoot
+    400082: Zombie_Scientist_Ctrl:LeftForeArm
+    400084: Zombie_Scientist_Ctrl:LeftHand
+    400086: Zombie_Scientist_Ctrl:LeftHipEffector
+    400088: Zombie_Scientist_Ctrl:LeftKneeEffector
+    400090: Zombie_Scientist_Ctrl:LeftLeg
+    400092: Zombie_Scientist_Ctrl:LeftShoulder
+    400094: Zombie_Scientist_Ctrl:LeftShoulderEffector
+    400096: Zombie_Scientist_Ctrl:LeftUpLeg
+    400098: Zombie_Scientist_Ctrl:LeftWristEffector
+    400100: Zombie_Scientist_Ctrl:Neck
+    400102: Zombie_Scientist_Ctrl:Neck1
+    400104: Zombie_Scientist_Ctrl:Reference
+    400106: Zombie_Scientist_Ctrl:RightAnkleEffector
+    400108: Zombie_Scientist_Ctrl:RightArm
+    400110: Zombie_Scientist_Ctrl:RightElbowEffector
+    400112: Zombie_Scientist_Ctrl:RightFoot
+    400114: Zombie_Scientist_Ctrl:RightForeArm
+    400116: Zombie_Scientist_Ctrl:RightHand
+    400118: Zombie_Scientist_Ctrl:RightHipEffector
+    400120: Zombie_Scientist_Ctrl:RightKneeEffector
+    400122: Zombie_Scientist_Ctrl:RightLeg
+    400124: Zombie_Scientist_Ctrl:RightShoulder
+    400126: Zombie_Scientist_Ctrl:RightShoulderEffector
+    400128: Zombie_Scientist_Ctrl:RightUpLeg
+    400130: Zombie_Scientist_Ctrl:RightWristEffector
+    400132: Zombie_Scientist_Ctrl:Spine
+    400134: Zombie_Scientist_Ctrl:Spine1
+    400136: Zombie_Scientist_Ctrl:Spine2
+    400138: Zombie_Scientist_Ctrl:Spine3
+    7400000: Zombie_Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Zombie_Idle
+      takeName: Zombie_Idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe/LeftToeEnd
+        weight: 0
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe/RightToeEnd
+        weight: 0
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandEnd
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1/Head
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1/Head/HeadEnd
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/Spine3/RightShoulder
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm/RightHand/RightHandEnd
+        weight: 0
+      - path: polySurface24
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:HeadEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:LeftUpLeg/Zombie_Scientist_Ctrl:LeftLeg
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:LeftUpLeg/Zombie_Scientist_Ctrl:LeftLeg/Zombie_Scientist_Ctrl:LeftFoot
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:RightUpLeg
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:RightUpLeg/Zombie_Scientist_Ctrl:RightLeg
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:RightUpLeg/Zombie_Scientist_Ctrl:RightLeg/Zombie_Scientist_Ctrl:RightFoot
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:LeftShoulder
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:LeftShoulder/Zombie_Scientist_Ctrl:LeftArm
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:LeftShoulder/Zombie_Scientist_Ctrl:LeftArm/Zombie_Scientist_Ctrl:LeftForeArm
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:LeftShoulder/Zombie_Scientist_Ctrl:LeftArm/Zombie_Scientist_Ctrl:LeftForeArm/Zombie_Scientist_Ctrl:LeftHand
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:Neck
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:Neck/Zombie_Scientist_Ctrl:Neck1
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:Neck/Zombie_Scientist_Ctrl:Neck1/Zombie_Scientist_Ctrl:Head
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:RightShoulder
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:RightShoulder/Zombie_Scientist_Ctrl:RightArm
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:RightShoulder/Zombie_Scientist_Ctrl:RightArm/Zombie_Scientist_Ctrl:RightForeArm
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:Hips/Zombie_Scientist_Ctrl:Spine/Zombie_Scientist_Ctrl:Spine1/Zombie_Scientist_Ctrl:Spine2/Zombie_Scientist_Ctrl:Spine3/Zombie_Scientist_Ctrl:RightShoulder/Zombie_Scientist_Ctrl:RightArm/Zombie_Scientist_Ctrl:RightForeArm/Zombie_Scientist_Ctrl:RightHand
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:HipsEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightHipEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Zombie_Scientist_Ctrl:Reference/Zombie_Scientist_Ctrl:RightWristEffector
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0170000009
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Zombie_Scientist(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: -.000773195177, y: .63608712, z: 0}
+      rotation: {x: .00704059331, y: .065484412, z: .10666737, w: .992111027}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: LeftUpLeg
+      position: {x: -.177957997, y: -2.39461243e-17, z: 1.88737916e-17}
+      rotation: {x: .461003065, y: .469497889, z: .395122886, w: .641034961}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLeg
+      position: {x: -.352488071, y: -6.03961358e-17, z: -6.70531806e-33}
+      rotation: {x: .944634974, y: .328123212, z: 2.00917522e-17, w: 5.78422124e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftFoot
+      position: {x: -.244223103, y: -1.05693241e-16, z: 1.68084606e-17}
+      rotation: {x: .618372738, y: .785869241, z: .00487700291, w: .00101792382}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToe
+      position: {x: -.164645061, y: 1.01918478e-16, z: 1.58043063e-17}
+      rotation: {x: 0, y: 0, z: -.0626305491, w: .998036802}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToeEnd
+      position: {x: -.0777921379, y: -3.77475849e-18, z: 7.70659361e-18}
+      rotation: {x: -.0220647994, y: -.706762433, z: -.0220647994, w: .706762433}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpLeg
+      position: {x: .156003207, y: -.0726525858, z: .0453149378}
+      rotation: {x: .475975931, y: -.457234919, z: .636190414, w: -.399555981}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLeg
+      position: {x: .352487236, y: -2.63675105e-07, z: -2.11386482e-16}
+      rotation: {x: .944634974, y: .328123212, z: -2.00917522e-17, w: -5.78422124e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightFoot
+      position: {x: .244223356, y: -1.68888992e-08, z: 6.03961358e-17}
+      rotation: {x: .618372381, y: .78586942, z: .0048770532, w: .00101792545}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToe
+      position: {x: .164645657, y: -1.80373149e-07, z: -9.05942037e-17}
+      rotation: {x: 0, y: 0, z: -.0626305491, w: .998036802}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToeEnd
+      position: {x: .0777921975, y: 4.24172342e-09, z: -3.01980679e-17}
+      rotation: {x: -.0220647994, y: -.706762433, z: -.0220647994, w: .706762433}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: .0103636719, y: .0419775769, z: .000159566262}
+      rotation: {x: .0410946049, y: -.0514685512, z: -.774125576, w: .629596531}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine1
+      position: {x: -.108512588, y: 5.17849673e-17, z: -9.74138513e-18}
+      rotation: {x: 0, y: 0, z: -.00450436724, w: .999989867}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine2
+      position: {x: -.137834728, y: -2.43749798e-16, z: -1.099462e-17}
+      rotation: {x: .999987781, y: -.00495031336, z: -3.03119276e-19, w: 6.12315949e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine3
+      position: {x: -.0987375081, y: -3.96349645e-17, z: 6.78953238e-18}
+      rotation: {x: .999913633, y: -.0131459432, z: -8.04956803e-19, w: 6.12270553e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: .00694936467, y: -.145275712, z: -1.95736317e-16}
+      rotation: {x: 0, y: 0, z: .701287687, w: .712878406}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArm
+      position: {x: -.184211731, y: -.0255173873, z: .0188415255}
+      rotation: {x: 0, y: -.0292592403, z: -0, w: .99957186}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftForeArm
+      position: {x: -.281545252, y: 0, z: -7.92699291e-17}
+      rotation: {x: 0, y: .0612325743, z: -0, w: .998123527}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHand
+      position: {x: -.257436633, y: 0, z: 1.24567034e-16}
+      rotation: {x: 0, y: .0020307391, z: -0, w: .999997973}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandEnd
+      position: {x: -.0968397856, y: 0, z: 1.42874606e-15}
+      rotation: {x: 0, y: -.0340316556, z: -0, w: .999420762}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -.0596386343, y: 4.01068115e-18, z: -6.034594e-18}
+      rotation: {x: 0, y: 0, z: .00252289418, w: .999996841}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck1
+      position: {x: -.0827116743, y: -4.0130404e-16, z: -8.93441419e-18}
+      rotation: {x: 0, y: 0, z: -.0107186791, w: .999942541}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -.110988863, y: 1.72744521e-16, z: -8.76499106e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadEnd
+      position: {x: -.328954905, y: 5.81886118e-16, z: -2.59781647e-17}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: .0116925314, y: .144088343, z: 1.96663223e-16}
+      rotation: {x: .712878406, y: .701287687, z: -4.29414834e-17, w: -4.36512143e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArm
+      position: {x: .18421115, y: .0255187023, z: -.0188414417}
+      rotation: {x: 0, y: -.0292592403, z: -0, w: .99957186}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightForeArm
+      position: {x: .281546474, y: 0, z: -1.55920091e-07}
+      rotation: {x: 0, y: .0612325743, z: -0, w: .998123527}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHand
+      position: {x: .257436424, y: 2.41584543e-16, z: 7.09057559e-08}
+      rotation: {x: 0, y: .0020307391, z: -0, w: .999997973}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandEnd
+      position: {x: .096838735, y: 0, z: -1.54187504e-07}
+      rotation: {x: 0, y: -.0340316556, z: -0, w: .999420762}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ZombieScientist
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5fa2b48d9f432594b996cb3d26280a73,
+    type: 3}
+  animationType: 3
+  userData: 
