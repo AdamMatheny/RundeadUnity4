@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73B12E8E-3ED2-1D02-3BEB-11E9BF0EEAFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.ZombieUnity.CSharp.Plugins.csproj">
+      <Project>{3385C9F6-16BF-E852-4008-44DA62C4236F}</Project>
+      <Name>UnityVS.ZombieUnity.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CustomeScripts\AnimatorSpeed.cs" />
+    <Compile Include="Assets\CustomeScripts\AudioCanceller.cs" />
+    <Compile Include="Assets\CustomeScripts\AudioManager.cs" />
+    <Compile Include="Assets\CustomeScripts\BackgroundAudioManager.cs" />
+    <Compile Include="Assets\CustomeScripts\BadgeIcon.cs" />
+    <Compile Include="Assets\CustomeScripts\CameraFade.cs" />
+    <Compile Include="Assets\CustomeScripts\CheckPoint.cs" />
+    <Compile Include="Assets\CustomeScripts\CircuitJoint.cs" />
+    <Compile Include="Assets\CustomeScripts\CircuitPath.cs" />
+    <Compile Include="Assets\CustomeScripts\ClickToMovePointer.cs" />
+    <Compile Include="Assets\CustomeScripts\CompanionAI.cs" />
+    <Compile Include="Assets\CustomeScripts\CompanionDropOff.cs" />
+    <Compile Include="Assets\CustomeScripts\CompanionPickUp.cs" />
+    <Compile Include="Assets\CustomeScripts\Computer_Synth.cs" />
+    <Compile Include="Assets\CustomeScripts\Credits.cs" />
+    <Compile Include="Assets\CustomeScripts\DinoAI.cs" />
+    <Compile Include="Assets\CustomeScripts\DoorNavigation.cs" />
+    <Compile Include="Assets\CustomeScripts\ElevatorLift.cs" />
+    <Compile Include="Assets\CustomeScripts\Gas.cs" />
+    <Compile Include="Assets\CustomeScripts\GasCure.cs" />
+    <Compile Include="Assets\CustomeScripts\GasMaskPickup.cs" />
+    <Compile Include="Assets\CustomeScripts\GasMaskVisibility.cs" />
+    <Compile Include="Assets\CustomeScripts\GasMaskVisibility2.cs" />
+    <Compile Include="Assets\CustomeScripts\HintScreen.cs" />
+    <Compile Include="Assets\CustomeScripts\InformationManager.cs" />
+    <Compile Include="Assets\CustomeScripts\Joystick.cs" />
+    <Compile Include="Assets\CustomeScripts\KeyPickup.cs" />
+    <Compile Include="Assets\CustomeScripts\Keybearer.cs" />
+    <Compile Include="Assets\CustomeScripts\LevelExit.cs" />
+    <Compile Include="Assets\CustomeScripts\LevelHUD.cs" />
+    <Compile Include="Assets\CustomeScripts\LightFlicker.cs" />
+    <Compile Include="Assets\CustomeScripts\MainMenuParallax.cs" />
+    <Compile Include="Assets\CustomeScripts\MapConsole.cs" />
+    <Compile Include="Assets\CustomeScripts\Menu_LevelSelect.cs" />
+    <Compile Include="Assets\CustomeScripts\Menu_MainMenu.cs" />
+    <Compile Include="Assets\CustomeScripts\Metrics.cs" />
+    <Compile Include="Assets\CustomeScripts\MetricsManager.cs" />
+    <Compile Include="Assets\CustomeScripts\MonsterObstacle.cs" />
+    <Compile Include="Assets\CustomeScripts\NPCMagnet.cs" />
+    <Compile Include="Assets\CustomeScripts\NPCMagnetEndTrigger.cs" />
+    <Compile Include="Assets\CustomeScripts\PauseButton.cs" />
+    <Compile Include="Assets\CustomeScripts\PickUp.cs" />
+    <Compile Include="Assets\CustomeScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\CustomeScripts\Poster_cameraLootAt.cs" />
+    <Compile Include="Assets\CustomeScripts\ScientistBlockPlayer.cs" />
+    <Compile Include="Assets\CustomeScripts\ShieldBotVisibility.cs" />
+    <Compile Include="Assets\CustomeScripts\ShieldPickup.cs" />
+    <Compile Include="Assets\CustomeScripts\SpeedBoost.cs" />
+    <Compile Include="Assets\CustomeScripts\StoryCam.cs" />
+    <Compile Include="Assets\CustomeScripts\StunPanels.cs" />
+    <Compile Include="Assets\CustomeScripts\StunTrigger.cs" />
+    <Compile Include="Assets\CustomeScripts\Stunable.cs" />
+    <Compile Include="Assets\CustomeScripts\SwitchToggler.cs" />
+    <Compile Include="Assets\CustomeScripts\Swtich_Gas.cs" />
+    <Compile Include="Assets\CustomeScripts\TextBoxSummoner.cs" />
+    <Compile Include="Assets\CustomeScripts\TimedLevelSkip.cs" />
+    <Compile Include="Assets\CustomeScripts\Toggler.cs" />
+    <Compile Include="Assets\CustomeScripts\TopDownCamera.cs" />
+    <Compile Include="Assets\CustomeScripts\TouristToZombie.cs" />
+    <Compile Include="Assets\CustomeScripts\TouristToZombie2.cs" />
+    <Compile Include="Assets\CustomeScripts\ZombieAI.cs" />
+    <Compile Include="Assets\CustomeScripts\ZombieRandom.cs" />
+    <Compile Include="Assets\CustomeScripts\ZombieTrap.cs" />
+    <Compile Include="Assets\CustomeScripts\ZombieVictim.cs" />
+    <Compile Include="Assets\CustomeScripts\ZoomArea.cs" />
+    <None Include="Assets\RunDeadASSETS\props\materials\mobile_trans.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\Text\Credits.txt" />
+    <None Include="Assets\Text\Credits_Short.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

@@ -1,0 +1,61 @@
+RUNDEAD
+
+Project Lead: Zach Johnson
+-Lead Design
+-Narrative Development
+-Level Design
+-Marketing
+-UI Design
+-Lighting 
+
+
+Lead Programmer: Sean Lambdin 
+-Gameplay Programming
+-Structural Programming
+-Audio Programming
+-Narrative Structure Programming
+-Metrics Programming
+-Level Design
+
+
+Programmer: Kyle Weeks
+-Gameplay Programming
+-Metrics Database Programming
+-Transition Programming
+-Structural Programming
+-Level Design
+
+
+Lead Artist: Brian Kortbus
+-Character Art and Animation
+-Monster Art and Animation
+-Prop Art
+
+
+Technical Producer: Jessica McNeal
+-Environmental Art
+-Animation & Modeling
+-Lighting
+-Event Scripting
+-Particle Effects
+-Audio Design
+-Playtesting and Analysis
+-Website & Social Marketing
+
+
+Technical Producer: Jennifer McNeal
+-Environmental Art
+-Animation & Modeling
+-Lighting
+-Event Scripting
+-Level Design
+-Audio Design
+-Playtesting and Analysis
+-Website & Social Marketing
+
+
+Technical Designer: Adam Matheny 
+-Structure Design and Programming
+-Gameplay Programming
+-Narrative Development
+-Level Design
