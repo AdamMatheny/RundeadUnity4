@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: da893e572178e1245ae9984ac4da503e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Head
+    100002: Hip
+    100004: Jaw
+    100006: LCalf
+    100008: LFingers
+    100010: LFoot
+    100012: LForeArm
+    100014: LHand
+    100016: LShoulder
+    100018: LThigh
+    100020: LToe1
+    100022: LToe2
+    100024: LUpperArm
+    100026: Neck1
+    100028: Neck2
+    100030: pCube1
+    100032: pPlane1
+    100034: RCalf
+    100036: RFingers
+    100038: RFoot
+    100040: RForeArm
+    100042: RHand
+    100044: RShoulder
+    100046: RThigh
+    100048: RToe1
+    100050: RToe2
+    100052: RUpperArm
+    100054: Spine1
+    100056: Spine2
+    100058: Tail1
+    100060: Tail2
+    100062: Tail3
+    100064: Tail4
+    100066: Tail5
+    100068: Tail6
+    100070: Tail7
+    100072: Tail8
+    100074: Tail9
+    100076: //RootNode
+    100078: TRexMesh
+    400000: Head
+    400002: Hip
+    400004: Jaw
+    400006: LCalf
+    400008: LFingers
+    400010: LFoot
+    400012: LForeArm
+    400014: LHand
+    400016: LShoulder
+    400018: LThigh
+    400020: LToe1
+    400022: LToe2
+    400024: LUpperArm
+    400026: Neck1
+    400028: Neck2
+    400030: pCube1
+    400032: pPlane1
+    400034: RCalf
+    400036: RFingers
+    400038: RFoot
+    400040: RForeArm
+    400042: RHand
+    400044: RShoulder
+    400046: RThigh
+    400048: RToe1
+    400050: RToe2
+    400052: RUpperArm
+    400054: Spine1
+    400056: Spine2
+    400058: Tail1
+    400060: Tail2
+    400062: Tail3
+    400064: Tail4
+    400066: Tail5
+    400068: Tail6
+    400070: Tail7
+    400072: Tail8
+    400074: Tail9
+    400076: //RootNode
+    400078: TRexMesh
+    2300000: pCube1
+    2300002: pPlane1
+    3300000: pCube1
+    3300002: pPlane1
+    4300000: TRexMesh
+    4300002: pPlane1
+    4300004: pCube1
+    7400000: Take 001
+    7400002: StandingPose
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: TRexMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: StandingPose
+      takeName: Take 001
+      firstFrame: 227
+      lastFrame: 228
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/LThigh
+        weight: 1
+      - path: Hip/LThigh/LCalf
+        weight: 1
+      - path: Hip/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Hip/LThigh/LCalf/LFoot/LToe1
+        weight: 1
+      - path: Hip/LThigh/LCalf/LFoot/LToe1/LToe2
+        weight: 1
+      - path: Hip/RThigh
+        weight: 1
+      - path: Hip/RThigh/RCalf
+        weight: 1
+      - path: Hip/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Hip/RThigh/RCalf/RFoot/RToe1
+        weight: 1
+      - path: Hip/RThigh/RCalf/RFoot/RToe1/RToe2
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/LShoulder
+        weight: 1
+      - path: Hip/Spine1/Spine2/LShoulder/LUpperArm
+        weight: 1
+      - path: Hip/Spine1/Spine2/LShoulder/LUpperArm/LForeArm
+        weight: 1
+      - path: Hip/Spine1/Spine2/LShoulder/LUpperArm/LForeArm/LHand
+        weight: 1
+      - path: Hip/Spine1/Spine2/LShoulder/LUpperArm/LForeArm/LHand/LFingers
+        weight: 1
+      - path: Hip/Spine1/Spine2/Neck1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Neck1/Neck2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Neck1/Neck2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Hip/Spine1/Spine2/RShoulder
+        weight: 1
+      - path: Hip/Spine1/Spine2/RShoulder/RUpperArm
+        weight: 1
+      - path: Hip/Spine1/Spine2/RShoulder/RUpperArm/RForeArm
+        weight: 1
+      - path: Hip/Spine1/Spine2/RShoulder/RUpperArm/RForeArm/RHand
+        weight: 1
+      - path: Hip/Spine1/Spine2/RShoulder/RUpperArm/RForeArm/RHand/RFingers
+        weight: 1
+      - path: Hip/Tail1
+        weight: 1
+      - path: Hip/Tail1/Tail2
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: Hip/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail9
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: TRexMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0399999991
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

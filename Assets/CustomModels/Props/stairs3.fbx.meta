@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 66fc9f91709a27f4b8b30828a7b107bc
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: FloorPlaneWhite
+    100002: StairPole1
+    100004: StairPole2
+    100006: StairPole3
+    100008: StairPole4
+    100010: Stairs1
+    100012: Stairs2
+    100014: Stairs3
+    100016: //RootNode
+    100018: Stairs4
+    100020: Stairs5
+    100022: Stairs6
+    100024: Stairs7
+    100026: Stairs8
+    100028: StairWall
+    400000: FloorPlaneWhite
+    400002: StairPole1
+    400004: StairPole2
+    400006: StairPole3
+    400008: StairPole4
+    400010: Stairs1
+    400012: Stairs2
+    400014: Stairs3
+    400016: //RootNode
+    400018: Stairs4
+    400020: Stairs5
+    400022: Stairs6
+    400024: Stairs7
+    400026: Stairs8
+    400028: StairWall
+    2300000: FloorPlaneWhite
+    2300002: StairPole1
+    2300004: StairPole2
+    2300006: StairPole3
+    2300008: StairPole4
+    2300010: Stairs1
+    2300012: Stairs2
+    2300014: Stairs3
+    2300016: Stairs4
+    2300018: Stairs5
+    2300020: Stairs6
+    2300022: Stairs7
+    2300024: Stairs8
+    2300026: StairWall
+    3300000: FloorPlaneWhite
+    3300002: StairPole1
+    3300004: StairPole2
+    3300006: StairPole3
+    3300008: StairPole4
+    3300010: Stairs1
+    3300012: Stairs2
+    3300014: Stairs3
+    3300016: Stairs4
+    3300018: Stairs5
+    3300020: Stairs6
+    3300022: Stairs7
+    3300024: Stairs8
+    3300026: StairWall
+    4300000: Stairs1
+    4300002: FloorPlaneWhite
+    4300004: Stairs2
+    4300006: Stairs3
+    4300008: Stairs4
+    4300010: Stairs5
+    4300012: Stairs6
+    4300014: Stairs7
+    4300016: Stairs8
+    4300018: StairWall
+    4300020: StairPole1
+    4300022: StairPole2
+    4300024: StairPole3
+    4300026: StairPole4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .800000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

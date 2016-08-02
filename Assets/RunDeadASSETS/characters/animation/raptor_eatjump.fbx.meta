@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 9f28ea61271ae7e4db4e578f9cb34150
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: armLeft1
+    100002: armLeft2
+    100004: armRight1
+    100006: armRight2
+    100008: footLeft
+    100010: footRight
+    100012: handLeft
+    100014: handRight
+    100016: head
+    100018: jaw
+    100020: legLeft1
+    100022: legLeft2
+    100024: legLeft3
+    100026: legRight1
+    100028: legRight2
+    100030: legRight3
+    100032: //RootNode
+    100034: tail1
+    100036: tail2
+    100038: tail3
+    100040: tail4
+    100042: torso
+    100044: waist
+    400000: armLeft1
+    400002: armLeft2
+    400004: armRight1
+    400006: armRight2
+    400008: footLeft
+    400010: footRight
+    400012: handLeft
+    400014: handRight
+    400016: head
+    400018: jaw
+    400020: legLeft1
+    400022: legLeft2
+    400024: legLeft3
+    400026: legRight1
+    400028: legRight2
+    400030: legRight3
+    400032: //RootNode
+    400034: tail1
+    400036: tail2
+    400038: tail3
+    400040: tail4
+    400042: torso
+    400044: waist
+    7400000: raptor_eatjump
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: raptor_eatjump
+      takeName: Take 001
+      firstFrame: 701
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: waist
+        weight: 1
+      - path: waist/legLeft1
+        weight: 1
+      - path: waist/legLeft1/legLeft2
+        weight: 1
+      - path: waist/legLeft1/legLeft2/legLeft3
+        weight: 1
+      - path: waist/legLeft1/legLeft2/legLeft3/footLeft
+        weight: 1
+      - path: waist/legRight1
+        weight: 1
+      - path: waist/legRight1/legRight2
+        weight: 1
+      - path: waist/legRight1/legRight2/legRight3
+        weight: 1
+      - path: waist/legRight1/legRight2/legRight3/footRight
+        weight: 1
+      - path: waist/tail1
+        weight: 1
+      - path: waist/tail1/tail2
+        weight: 1
+      - path: waist/tail1/tail2/tail3
+        weight: 1
+      - path: waist/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: waist/torso
+        weight: 1
+      - path: waist/torso/armLeft1
+        weight: 1
+      - path: waist/torso/armLeft1/armLeft2
+        weight: 1
+      - path: waist/torso/armLeft1/armLeft2/handLeft
+        weight: 1
+      - path: waist/torso/armRight1
+        weight: 1
+      - path: waist/torso/armRight1/armRight2
+        weight: 1
+      - path: waist/torso/armRight1/armRight2/handRight
+        weight: 1
+      - path: waist/torso/head
+        weight: 1
+      - path: waist/torso/head/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2b58ddd12cb3556478d385d3dc287a97,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 

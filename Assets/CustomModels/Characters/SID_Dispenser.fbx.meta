@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 679f698225263754e9fe6f962d2965c9
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Blade1
+    100002: Blade2
+    100004: Blade3
+    100006: Blade4
+    100008: LeftSide
+    100010: RightSide
+    100012: S_I_D
+    100014: SID
+    100016: //RootNode
+    100018: sid_dispenser_2:lid
+    100020: transform1
+    400000: Blade1
+    400002: Blade2
+    400004: Blade3
+    400006: Blade4
+    400008: LeftSide
+    400010: RightSide
+    400012: S_I_D
+    400014: SID
+    400016: //RootNode
+    400018: sid_dispenser_2:lid
+    400020: transform1
+    2300000: Blade1
+    2300002: Blade2
+    2300004: Blade3
+    2300006: Blade4
+    2300008: LeftSide
+    2300010: RightSide
+    2300012: SID
+    2300014: sid_dispenser_2:lid
+    3300000: Blade1
+    3300002: Blade2
+    3300004: Blade3
+    3300006: Blade4
+    3300008: LeftSide
+    3300010: RightSide
+    3300012: SID
+    3300014: sid_dispenser_2:lid
+    4300000: SID
+    4300002: Blade1
+    4300004: Blade2
+    4300006: Blade3
+    4300008: Blade4
+    4300010: sid_dispenser_2:lid
+    4300012: LeftSide
+    4300014: RightSide
+    7400000: Sid_Pop_Up
+    7400002: Sid_Idle
+    7400004: Sid_Empty
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sid_Pop_Up
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftSide
+        weight: 1
+      - path: RightSide
+        weight: 1
+      - path: S_I_D
+        weight: 1
+      - path: S_I_D/SID
+        weight: 1
+      - path: S_I_D/SID/Blade1
+        weight: 1
+      - path: S_I_D/SID/Blade2
+        weight: 1
+      - path: S_I_D/SID/Blade3
+        weight: 1
+      - path: S_I_D/SID/Blade4
+        weight: 1
+      - path: S_I_D/transform1
+        weight: 1
+      - path: sid_dispenser_2:lid
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sid_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftSide
+        weight: 1
+      - path: RightSide
+        weight: 1
+      - path: S_I_D
+        weight: 1
+      - path: S_I_D/SID
+        weight: 1
+      - path: S_I_D/SID/Blade1
+        weight: 1
+      - path: S_I_D/SID/Blade2
+        weight: 1
+      - path: S_I_D/SID/Blade3
+        weight: 1
+      - path: S_I_D/SID/Blade4
+        weight: 1
+      - path: S_I_D/transform1
+        weight: 1
+      - path: sid_dispenser_2:lid
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sid_Empty
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 61.0999985
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftSide
+        weight: 1
+      - path: RightSide
+        weight: 1
+      - path: S_I_D
+        weight: 1
+      - path: S_I_D/SID
+        weight: 1
+      - path: S_I_D/SID/Blade1
+        weight: 1
+      - path: S_I_D/SID/Blade2
+        weight: 1
+      - path: S_I_D/SID/Blade3
+        weight: 1
+      - path: S_I_D/SID/Blade4
+        weight: 1
+      - path: S_I_D/transform1
+        weight: 1
+      - path: sid_dispenser_2:lid
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .400000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

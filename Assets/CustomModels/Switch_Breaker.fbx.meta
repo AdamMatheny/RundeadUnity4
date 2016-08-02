@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 7b8f5eb1ba67f0242bfaf7353f4f358b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Breaker_Switch_Base
+    100002: Breaker_Switch_Base1
+    100004: Breaker_Switch_Switch
+    100006: polySurface1
+    100008: polySurface10
+    100010: polySurface2
+    100012: polySurface3
+    100014: polySurface4
+    100016: polySurface5
+    100018: polySurface6
+    100020: polySurface7
+    100022: polySurface8
+    100024: polySurface9
+    100026: //RootNode
+    100028: transform1
+    100030: transform10
+    100032: transform11
+    100034: transform2
+    100036: transform3
+    100038: transform4
+    100040: transform5
+    100042: transform6
+    100044: transform7
+    100046: transform8
+    100048: transform9
+    400000: Breaker_Switch_Base
+    400002: Breaker_Switch_Base1
+    400004: Breaker_Switch_Switch
+    400006: polySurface1
+    400008: polySurface10
+    400010: polySurface2
+    400012: polySurface3
+    400014: polySurface4
+    400016: polySurface5
+    400018: polySurface6
+    400020: polySurface7
+    400022: polySurface8
+    400024: polySurface9
+    400026: //RootNode
+    400028: transform1
+    400030: transform10
+    400032: transform11
+    400034: transform2
+    400036: transform3
+    400038: transform4
+    400040: transform5
+    400042: transform6
+    400044: transform7
+    400046: transform8
+    400048: transform9
+    2300000: Breaker_Switch_Base1
+    2300002: Breaker_Switch_Switch
+    3300000: Breaker_Switch_Base1
+    3300002: Breaker_Switch_Switch
+    4300000: Breaker_Switch_Switch
+    4300002: Breaker_Switch_Base1
+    7400000: Shock_switch_On
+    7400002: Shock_switch_Off
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shock_switch_On
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Breaker_Switch_Base
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface1
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface1/transform11
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface2
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface2/transform10
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface3
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface3/transform9
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface4
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface4/transform8
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface5
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface5/transform7
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface6
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface6/transform6
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface7
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface7/transform5
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface8
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface8/transform4
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface9
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface9/transform3
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface10
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface10/transform2
+        weight: 1
+      - path: Breaker_Switch_Base/transform1
+        weight: 1
+      - path: Breaker_Switch_Base1
+        weight: 1
+      - path: Breaker_Switch_Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shock_switch_Off
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Breaker_Switch_Base
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface1
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface1/transform11
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface2
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface2/transform10
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface3
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface3/transform9
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface4
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface4/transform8
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface5
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface5/transform7
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface6
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface6/transform6
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface7
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface7/transform5
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface8
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface8/transform4
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface9
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface9/transform3
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface10
+        weight: 1
+      - path: Breaker_Switch_Base/polySurface10/transform2
+        weight: 1
+      - path: Breaker_Switch_Base/transform1
+        weight: 1
+      - path: Breaker_Switch_Base1
+        weight: 1
+      - path: Breaker_Switch_Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .800000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
