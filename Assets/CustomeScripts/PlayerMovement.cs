@@ -495,12 +495,12 @@ public class PlayerMovement : MonoBehaviour
             if (levelMap != null && levelMap.showMap == true)
             {
                 //Debug.Log("Displaying button to HIDE map");
-                if (GUI.Button(new Rect(0, Screen.height * 0.6f, Screen.width * 0.1f, Screen.height * 0.025f), new GUIContent("Hide Map", "This is the tooltip")))
+               /* if (GUI.Button(new Rect(0, Screen.height * 0.6f, Screen.width * 0.1f, Screen.height * 0.025f), new GUIContent("Hide Map", "This is the tooltip")))
                 {
                     levelMap.showMap = false;
 
                 }
-                GUI.Box(new Rect(0, Screen.height * 0.65f, Screen.width * 0.25f, Screen.height * 0.25f), "");
+               // GUI.Box(new Rect(0, Screen.height * 0.65f, Screen.width * 0.25f, Screen.height * 0.25f), "");
 
             }
             else if (levelMap != null && levelMap.showMap == false)
@@ -511,7 +511,7 @@ public class PlayerMovement : MonoBehaviour
                     levelMap.showMap = true;
 
 
-                }
+                }*/
             }
 
             if (Event.current.type == EventType.Repaint)

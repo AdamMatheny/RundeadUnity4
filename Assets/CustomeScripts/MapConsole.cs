@@ -14,14 +14,14 @@ public class MapConsole : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (showMap == true)
+		/*if (showMap == true)
 		{
 				mapCamera.depth = 5;
 		}
 		else if (showMap == false)
 		{
 				mapCamera.depth = -5;
-		}
+		}*/
 	}
 
 	void OnGUI ()

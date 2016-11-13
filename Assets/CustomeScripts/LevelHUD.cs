@@ -59,16 +59,16 @@ public class LevelHUD : MonoBehaviour
         {
             if (playerAvatar.GetComponent<PlayerMovement>().NumberofShields == 0)
             {
-                int levelNumber = Application.loadedLevel - 1;
+               /* int levelNumber = Application.loadedLevel - 1;
                 GUI.Box(new Rect(10, 10, Screen.width * 0.2f, Screen.height * 0.05f), "Current level: " + levelNumber
-                                                    + "\nYou have the " + keyText + "key.");
+                                                    + "\nYou have the " + keyText + "key.");*/
             }
             else
             {
-                int levelNumber = Application.loadedLevel + 1;
+              /*  int levelNumber = Application.loadedLevel + 1;
                 GUI.Box(new Rect(10, 10, Screen.width * 0.2f, Screen.height * 0.075f), "Current level: " + levelNumber
                         + "\nYou have the " + keyText + "key."
-                        + "\nYou are shielded.");
+                        + "\nYou are shielded.");*/
             }
             GUI.Box(new Rect(10, Screen.height * 0.1f, Screen.width * 0.075f, Screen.width * 0.1f), badgeToDisplay);
             if (playerDied)
