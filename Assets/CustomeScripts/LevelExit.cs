@@ -5,17 +5,20 @@ public class LevelExit : MonoBehaviour
 {
 
 	public bool levelDone = false;
+	public int waitTime = 0;
 
 	// Use this for initialization
 	void Start () 
 	{
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () 
 	{
 
 	}
+
 
 	void OnTriggerEnter (Collider other)
 	{
@@ -23,6 +26,17 @@ public class LevelExit : MonoBehaviour
 		{
 			levelDone = true;
 			//Time.timeScale = 0;
+			StartCoroutine(waitToChangeToDone());
+		}
+
+	}
+
+	IEnumerator waitToChangeToDone() {
+		yield return new WaitForSeconds(waitTime);
+		changeToDone();
+	}
+	void changeToDone()
+	{
 			if (levelDone)
 			{
 				levelDone = false;
@@ -38,9 +52,7 @@ public class LevelExit : MonoBehaviour
 					Application.LoadLevel("MainMenuScene");
 				}
 			}
-		}
 	}
-
 	void OnGUI()
 	{
 //		if (levelDone)
